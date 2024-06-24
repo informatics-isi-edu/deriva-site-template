@@ -1,26 +1,46 @@
 ---
 layout: page
-title: Joining GLOBUS groups and DERIVA login
+title: Accessing Project Resources
+permalink: /docs/accessing-resources/
 ---
 
-## Joining GLOBUS groups ##
-For most DERIVA deployments, access is generally controlled by GLOBUS groups.
+This page describes how to get editing/viewing access to project data and compute resources by joining the correct Globus group.
 
-1. Navigate to the GLOBUS group page(s) required for access.
-   * The URL for these pages will be provided to you by an administrator, either directly or via an email invitation.
+**NOTE: We only use Globus for authentication, not for file or data management.**
 
-2. The app will ask you to login. Please login with one of the following IDs. This login will be used later to access the system.
-   * University ID (e.g. USC ID)
-   * Globus ID. Create a GlobusID [here](https://www.globusid.org/).
-   * ORCID ID
-   * Google ID
+## Step 1: Join the correct group
 
-3. Click "Join this group" to initiate a request to us. You will get a notification once your request is approved.
+Click on the appropriate link below to request joining that group:
 
-## DERIVA Login ##
-1. Navigate to the main page for the site.
-2. On the navigation bar, click "Log in" to login.
-3. Login to the system using the same ID that you used when joined the GLOBUS groups (above).
-4. Once you are logged in, use the navigation bar to browse DERIVA catalog data.
+| Group_Name_and_Link                                                               | Description                                                  |
+|-----------------------------------------------------------------------------------|--------------------------------------------------------------|
+| [project-readers](https://app.globus.org/groups/<globus_reader_group_guid>/about) | Read only access to project data.                            |
+| [project-writers](https://app.globus.org/groups/<globus_writer_group_guid>/about) | Read and write access to project data and compute resources. |
+                                
+                                                                                                                                                                                                                   
+## Step 2: Choose how to log in
+
+When you click the link, you will see a Globus login page where you may choose your identity provider. Choose one of the following and follow the prompts:
+
+* Your institution’s credentials
+* Google
+* ORCID iD
+
+If none of the above options are available to you, click where it says "Then use Globus ID to sign in." to choose your own username/password and follow the instructions.
+
+**NOTE:** If you see a page like the screenshot below and have an account you've used before with Globus, go ahead and click "Link to existing account". If not, click "No thanks, continue."
+
+![Linking accounts page]({{ "/assets/images/globus_signup/globus_signup1_short.jpeg" | relative_url }})
+
+## Step 3: Request group membership
+
+Once you’ve signed in, click the  “Join Group” button (towards the right side of the page) to request membership. There will be a short form to fill out. Please fill out all fields.
+
+You will then receive an email notification that your membership is pending.
+
+**Once the administrator approves your application, you’ll receive email confirmation that your membership has been approved.**
+
+If you have any problems or questions, please email us [here](https://veilmail.io/isrd-support).
+
 
 
